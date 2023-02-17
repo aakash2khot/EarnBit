@@ -1,8 +1,21 @@
 import React from 'react'
 
-export default function Display() {
+export default function Display() 
+{
   return (
-    <div>Display</div>
+    <div className="col">
+    {/* <div className="card"> */}
+    
+    <div className="card" style={{width: '18rem'}}>
+      {/* <div className="card" style="width:18rem;"> */}
+      <img src="https://cdn.zeebiz.com/sites/default/files/2022/09/13/200028-untitled-design-2022-09-13t125137903.jpg" className="card-img-top" alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title">Card title</h5>
+        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="https://getbootstrap.com/docs/5.3/components/card/" className="btn btn-primary">Participate</a>
+      </div>
+    </div>
+    </div>
   )
 }
 // How to handle events
